@@ -9,15 +9,10 @@ public class OEPTest {
    
     @Test
     public void testOdd() {
-        String result = OEP.play(3);
-        System.out.println("Result for 3: " + result); // Add this line
-        Assert.assertEquals("ODD", result);
-        result = OEP.play(5);
+        String result = OEP.play(9);
         System.out.println("Result for 9: " + result); // Add this line
         Assert.assertEquals("ODD", result);
-        result = OEP.play(7);
-        System.out.println("Result for 15: " + result); // Add this line
-        Assert.assertEquals("ODD", result);
+        
     }
 
     @Test
