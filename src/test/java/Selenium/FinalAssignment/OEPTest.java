@@ -13,10 +13,10 @@ public class OEPTest {
         System.out.println("Result for 3: " + result); // Add this line
         Assert.assertEquals("ODD", result);
         result = OEP.play(5);
-        System.out.println("Result for 5: " + result); // Add this line
+        System.out.println("Result for 9: " + result); // Add this line
         Assert.assertEquals("ODD", result);
         result = OEP.play(7);
-        System.out.println("Result for 7: " + result); // Add this line
+        System.out.println("Result for 15: " + result); // Add this line
         Assert.assertEquals("ODD", result);
     }
 
